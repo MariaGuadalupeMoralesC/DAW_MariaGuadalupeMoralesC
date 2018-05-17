@@ -1,0 +1,14 @@
+{
+  "name": "myBootstrapApp",
+  "homepage": "https://github.com/MariaGuadalupeMoralesC/DAW_MariaGuadalupeMoralesC",
+  "authors": [
+    "MariaGuadalupeMoralesC <mariaguadalupe.moralesc@gmail.com>"
+  ],
+  "description": "How to use bootstrap framework",
+  "main": "index.html",
+  "license": "MIT",
+  "dependencies": {
+    "boostrap": "^4.1.1",
+    "fontawesome": "^5.0.13"
+  }
+}
