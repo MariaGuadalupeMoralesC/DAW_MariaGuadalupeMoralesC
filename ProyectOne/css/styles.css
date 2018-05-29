@@ -1,4 +1,18 @@
 .features .fas {
   font-size: 32px;
-  color: purple;  
+  color: purple;
+}
+.footer{
+  padding: 20px 0;
+  bottom: 0;
+  width: 100%
+  height: 200px;
+  background-color: #333;
+  color: #efefet;
+}
+.footer a{
+  color:#9af7f3;
+}
+@media query only screen and (max-with: 768px) {
+  .footer{height: 350px;}
 }
