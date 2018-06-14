@@ -5,18 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <!-- se agrega la libreria de bootstrap -->
-  <link rel="stylesheet" href="bower_components\boostrap\dist\css\bootstrap.css">
-  <!-- se agrega la libreria de fontawesome/iconos -->
-  <link rel="stylesheet" href="bower_components\fontawesome\web-fonts-with-css\css\fontawesome-all.css">
-  <!-- se agrega  -->
-  <link rel="stylesheet" href="css/styles.css">
+  <!--Se agrega la libreria de boostrap para el estilo-->
+  <link rel="stylesheet" href="bower_components/boostrap/dist/css/bootstrap.css">
+  <!--Se agrega la libreria de iconos-->
+  <link rel="stylesheet" href="bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.css">
+
+
 </head>
 <body>
+  <!--Aquí va la barra de navegacion-->
+  <nav class="navbar navbar-expand-md navbar-light fixed-top ">
+    <a href="index.html" class="navbar-brand">Company Logo</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacion">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navegacion"class="justify-content-end collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item"></li>
+          <a href="index.html" class="nav-link">Home</a>
+        <li class="nav-item"></li>
+          <a href="products.html" class="nav-link">Products</a>
+        <li class="nav-item"></li>
+          <a href="about.html" class="nav-link">About Us</a>
+        <li class="nav-item"></li>
+          <a href="contact.html" class="nav-link">Contact Us</a>
+        <li class="nav-item">
+          <form class="form-inline">
+            <input class="form-control mr-sm-2"
+            type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search
 
-<!-- se agrega la libreria de bootstrap js-->
-<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-<!-- se agrega la libreria de jquery para que bootstrap funcione -->
-<script src="bower_components/jquery/dis/jquery.js"></script>
+            </button>
+
+        </li>
+
+
+      </ul>
+
+    </div>
+  </nav>
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <!--Se agrega la libreria de jquery para que bootstrap funcione-->
+
+  <script src="bower_components/boostrap/dist/js/bootstrap.js"></script>
+  <!-- Se agrega la libreria de boostrap js-->
+
+
 </body>
 </html>
