@@ -9,12 +9,12 @@
   <link rel="stylesheet" href="bower_components/boostrap/dist/css/bootstrap.css">
   <!--Se agrega la libreria de iconos-->
   <link rel="stylesheet" href="bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.css">
-
-
+<!--se agrega los estilos personalizados-->
+  <link rel="stylesheet" href="css/style.css"
 </head>
 <body>
   <!--Aquí va la barra de navegacion-->
-  <nav class="navbar navbar-expand-md navbar-light fixed-top ">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top ">
     <a href="index.html" class="navbar-brand">Company Logo</a>
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacion">
       <span class="navbar-toggler-icon"></span>
@@ -44,13 +44,95 @@
 
     </div>
   </nav>
-
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h1>Featured Product</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="btn-group btn-group-lg">
+          <button class="btn btn-info">Buy Now!</button>
+          <button class="btn btn-default">Free Trial</button>
+        </div>
+        <p><a href="#">Read more about the product</a></p>
+      </div>
+      <div class="col-md-8 d-none d-sm-block">
+        <img src="img/jacke.png" alt="" width="400px" height="325px">
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-8">
+        <h3>The Company</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ducimus, nobis voluptas doloremque ea minima
+          provident non excepturi eveniet, asperiores incidunt tenetur obcaecati dignissimos maxime temporibus perferendis?
+          Nesciunt, rerum, minima.</p>
+      </div>
+      <div class="col-md-4">
+        <p class="bg-light rounded lead text-center p-md-5 m-md-3">
+          Our Motto
+        </p>
+      </div>
+    </div>
+    <!-- /.row -->
+    <hr>
+    <div class="row">
+      <h3>Testimonials</h3>
+      <div class="col-md-12 text-center">
+        <div class="carousel slide" id="carouselTestimonios" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <blockquote class="blockquote">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem perferendis mollitia,
+                  necessitatibus voluptates numquam et recusandae amet rerum magni laboriosam.</p>
+                  <footer class="blockquote-footer">
+                    María Guadalupe
+                  </footer>
+              </blockquote> <!--end blockquote-->
+            </div>
+            <div class="carousel-item">
+              <blockquote class="blockquote">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem perferendis mollitia,
+                  necessitatibus voluptates numquam et recusandae amet rerum magni laboriosam.</p>
+                  <footer class="blockquote-footer">
+                    Teresa de Jesús
+                  </footer>
+              </blockquote> <!--end blockquote-->
+            </div>
+            <div class="carousel-item">
+              <blockquote class="blockquote">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem perferendis mollitia,
+                  necessitatibus voluptates numquam et recusandae amet rerum magni laboriosam.</p>
+                  <footer class="blockquote-footer">
+                    Cecilia Morales
+                  </footer>
+              </blockquote> <!--end blockquote-->
+            </div>
+          </div>
+          <!-- /.carousel-inner -->
+        </div>
+        <hr>
+      </div>
+      <!-- /.col-md-12 text-center -->
+      <div class="footer col-md-12">
+        <p class="text-center lead">
+          Wanna get in touch? Email us at
+          mariaguadalupe.moralesc@gmail.com
+        </p>
+        <hr>
+        <ul class="list-unstyled text-center ">
+          <li class="list-inline-item"><a href=""><i class="fab fa-twitter fa-lg"></i></a></li>
+          <li class="list-inline-item"><a href=""><i class="fab fa-facebook fa-lg"></i></a></li>
+          <li class="list-inline-item"><a href=""><i class="fab fa-linkedin fa-lg"></i></a></li>
+        </ul>
+      </div>
+      <!-- /.footer -->
+    </div>
+    <!-- /.row -->
+  </div>
   <script src="bower_components/jquery/dist/jquery.js"></script>
   <!--Se agrega la libreria de jquery para que bootstrap funcione-->
-
   <script src="bower_components/boostrap/dist/js/bootstrap.js"></script>
   <!-- Se agrega la libreria de boostrap js-->
-
   <script src="bower_components/hammerjs/hammer.js"></script>
   <!---->
   <script>
