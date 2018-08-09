@@ -9,8 +9,10 @@
   <link rel="stylesheet" href="bower_components/boostrap/dist/css/bootstrap.css">
   <!--Se agrega la libreria de iconos-->
   <link rel="stylesheet" href="bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.css">
-<!--se agrega los estilos personalizados-->
-  <link rel="stylesheet" href="css/style.css"
+  <!--Se agregan los estilos personalisados-->
+  <link rel="stylesheet" href="css/style.css">
+
+
 </head>
 <body>
   <!--Aquí va la barra de navegacion-->
@@ -21,14 +23,14 @@
     </button>
     <div id="navegacion"class="justify-content-end collapse navbar-collapse">
       <ul class="navbar-nav">
-        <li class="nav-item"></li>
-          <a href="index.html" class="nav-link">Home</a>
-        <li class="nav-item"></li>
-          <a href="products.html" class="nav-link">Products</a>
-        <li class="nav-item"></li>
-          <a href="about.html" class="nav-link">About Us</a>
-        <li class="nav-item"></li>
-          <a href="#" class="nav-link" data-toggle="modal" data-target="#modal-contact-form">Contact Us</a>
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item">
+          <a href="products.html" class="nav-link">Products</a></li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">About Us</a></li>
+        <li class="nav-item">
+          <a href="#" class="nav-link" data-toggle="modal" data-target="#modal-contact-form">Contact Us</a></li>
         <li class="nav-item">
           <form class="form-inline">
             <input class="form-control mr-sm-2"
@@ -38,123 +40,151 @@
             </button>
 
         </li>
-
-
       </ul>
 
     </div>
   </nav>
   <div class="container">
-  </div>
-  </nav>
 
-  <div class="container">
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-        <li class="breadcrumb-item"><a href="#">About Us</a></li>
-      </ol>
-    </nav>
-
-    <div class="row">
-      <h1>About Us. <small class="text-muted">Who we are</small></h1>
-    </div>
-    <hr>
-    <div class="row">
-      <div class="col-md-8">
-        <h3>The company</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Deleniti rem rerum explicabo quam repellendus molestias doloribus, ex,
-          similique accusantium consequatur corporis, amet quos. Accusamus laborum maiores ut,
-          nostrum ipsa omnis temporibus id sapiente, consequatur neque. Minima debitis atque illo
-          ab aliquam odio, pariatur. Nostrum similique, dolor amet ullam, deserunt aspernatur?</p>
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">About Us</a></li>
+        </ol>
+      </nav>
+      <div class="row">
+        <h1>About Us. <small class="Text-muted">Who we are</small></h1>
       </div>
-      <div class="col-md-4">
-      <p class="bg-light rounded lead text-center p-md-5 m-md-3">
-        Our Motto
-      </p>
-    </div>
-  </div>
-</div>
-      <div class="footer col-md-12">
-        <p class="text-center lead">
-          Wanna get in touch? Email us at
-          mariaguadalupe.moralesc@gmail.com
-        </p>
-        <hr>
-        <ul class="list-unstyled text-center ">
-          <li class="list-inline-item"><a href=""><i class="fab fa-twitter fa-lg"></i></a></li>
+      <hr>
+      <div class="row">
+        <div class="col-md-8">
+          <h3>The company</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi fuga ducimus perspiciatis
+            quasi consectetur nihil non dolor quaerat nam, fugit voluptatem cumque incidunt velit magnam
+            pariatur consequuntur esse illo, quas possimus quia corporis architecto. Earum odit aut, dolorem
+             ipsa eaque in, veniam, blanditiis cumque quos similique exercitationem pariatur est sed.</p>
+        </div>
+        <div class="col-md-4">
+          <p class="bg-light rounded lead text-center p-md-5 m-md-3">Our Motto</p>
+        </div>
+      </div>
+      <hr>
+      <h3>The team</h3>
+      <div class="row">
+
+      <div class="card col-md-5">
+        <img src="img/demo-team-member.jpg" alt="" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">User1 </h5>
+
+          <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, ex?</p>
+          <li class="list-inline-item"><a href=""><i class="fab fa-twitter fa-lg "></i></a></li>
           <li class="list-inline-item"><a href=""><i class="fab fa-facebook fa-lg"></i></a></li>
           <li class="list-inline-item"><a href=""><i class="fab fa-linkedin fa-lg"></i></a></li>
-        </ul>
-        <p class="text-center text-muted">
-          &copy; Copyright 2018 Company name
-        </p>
-      </div>
-      <!-- /.footer -->
-    </div>
-    <!-- /.row -->
-  </div>
 
-  <div class="modal fade" id="modal-contact-form" role="dialog">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Contact Us</h5>
-          <button class="close" data-dismiss="modal">
-            <span>&times;</span>
-          </button>
-        </div> <!--end header-->
-        <div class="modal-body">
-          <form>
-            <div class="form-gruop">
-              <label for="contact-email" class="col-form-label">
-                Email:
-              </label>
-              <input type="email" class="form-control" id="contact-email">
-            </div>
+        </div>
+        </div>
+
+      <div class="card col-md-5 offset-md-2">
+        <img src="img/demo-team-member.jpg" alt="" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">User 2</h5>
+
+        <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, ex?</p>
+        <li class="list-inline-item"><a href=""><i class="fab fa-twitter fa-lg "></i></a></li>
+        <li class="list-inline-item"><a href=""><i class="fab fa-facebook fa-lg"></i></a></li>
+        <li class="list-inline-item"><a href=""><i class="fab fa-linkedin fa-lg"></i></a></li>
+
+        </div>
+      </div>
+      </div>
+
+
+
+
+
+
+    <div class="footer col-md-12">
+      <p class="text-center lead">
+        wanna get in touch. Email us article
+        estephany.torres@gmail.com
+
+      <hr>
+      <ul class="list-unstyled text-center">
+      <p class="text-center lead"></p>
+      <li class="list-inline-item"><a href=""><i class="fab fa-twitter fa-lg "></i></a></li>
+      <li class="list-inline-item"><a href=""><i class="fab fa-facebook fa-lg"></i></a></li>
+      <li class="list-inline-item"><a href=""><i class="fab fa-linkedin fa-lg"></i></a></li>
+      </ul>
+      <p class="text-center text-muted">
+        &copy; Copyright 2018 Company name
+      </p>
+    </div>
+   </div>
+   </div>
+   </div>
+<div class="modal fade" id="modal-contact-form" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Contact Us</h5>
+        <button class="close" data-dismiss="modal">
+          <span>&times;</span>
+         </button>
+      </div> <!--end header-->
+      <div class="modal-body">
+        <form >
+          <div class="form-group">
+            <label for="contac-email" class="col-form-label">
+              Email:
+            </label>
+            <input type="email" class="form-control" id="contac-email">
+          </div><!--end form-group-->
+          <div class="form-group">
             <div class="form-group">
-              <label for="contact-name" class="col-form-label">
-                Name:
-              </label>
-              <input type="text" class="form-control" id="contact-name">
+              <label for="contac-name" class="col-form-label"> Name:</label>
+              <input type="text" class="form-control"
+              id="contact-name">
             </div>
             <div class="form-group">
               <label for="contact-message" class="col-form-label">
                 Message:
               </label>
-              <textarea id="contact-message" cols="30" rows="10" class="form-control"></textarea>
+              <textarea  id="contact-message" cols="30" rows="10" class="form-control"></textarea>
             </div>
-          </form>
-        </div> <!--End body-->
-        <div class="modal-footer">
-          <button class="btn btn-secondary" data-dismiss="modal">
-            close
-          </button>
-          <button class="btn btn-primary">
-            Send
-          </button>
-        </div>
+          </div>
+
+        </form>
+      </div><!--End Body-->
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-dismiss="modal">
+          Close
+        </button>
+        <button class="btn btn-primary">
+          Send
+        </button>
       </div>
     </div>
   </div>
-
+</div>
 
   <script src="bower_components/jquery/dist/jquery.js"></script>
   <!--Se agrega la libreria de jquery para que bootstrap funcione-->
   <script src="bower_components/boostrap/dist/js/bootstrap.js"></script>
   <!-- Se agrega la libreria de boostrap js-->
-  <script src="bower_components/hammerjs/hammer.js"></script>
-  <!---->
+  <script src ="bower_components/hammerjs/hammer.js"></script>
   <script>
-  var $body = Document.body;
-    var hammertime = new Hammer($body);
-      hammertime.on('swipleft', function(ev) {
-        console.log(ev);
-      });
-      hammertime.on('swiperight', function(ev) {
-        console.log(ev);
-      });
+    var $body =document.body;
+    var hammertime = new hammer($body);
+  hammertime.on('swipeleft', function(ev) {
+  	console.log(ev);
+  });
+  hammertime.on('swiperight', function(ev) {
+    console.log(ev);
+  });
   </script>
+
+
 </body>
 </html>
